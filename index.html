@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto</title>
+</head>
+<body>
+    <header>
+        <h1>Codificador y Decodificador</h1> <hr>
+    </header>
+    <main>
+        <label for="mensaje">Mensaje:</label>
+        <input id="mensaje" type="text">
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password"  id="password">
+        <br><br>
+
+        <button onclick="encriptar()">Encriptar</button> 
+        <br><br><hr>
+
+        <label>Mensaje Encriptado:</label>
+        <span id="demo1"></span>
+        <br><br>
+
+        <label for="">Mensaje Codigo:</label>
+        <input type="text" id="msgCodigo">
+        <br><br>
+
+        <button onclick="desencriptar()">Desencriptar</button>
+        <br><br>
+
+        <label for="">Mensaje Real:</label>
+        <span id="demo2"></span>
+        <br><br>
+
+        <span id="error"></span>
+    </main>
+    <footer>
+        
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
